@@ -14,25 +14,15 @@ Atividades do conteúdo do modulo 01 e 02 de Machine Learning 2023.2
 
 
 import __________.pyplot as plt
-
 import numpy as ___
-
-
 fig, axs = plt.subplots(ncols=2, nrows=2, figsize=(5.5, 3.5),layout="constrained")
 
-
 for ___ in range(2):
-
-    for ___ in range(2):
-
-        axs[row, col].annotate(f'axs[{row}, {col}]', (0.5, 0.5),
-
-                               transform=axs[row, col].transAxes,
-
-                               ha='center', va='center', ________=18,
-
-                               color='darkgrey')
-
+for ___ in range(2):
+axs[row, col].annotate(f'axs[{row}, {col}]', (0.5, 0.5),
+transform=axs[row, col].transAxes,
+ha='center', va='center', ________=18,
+color='darkgrey')
 fig.suptitle('__.subplots()')
 
 
